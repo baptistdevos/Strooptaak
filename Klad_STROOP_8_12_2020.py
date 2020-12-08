@@ -11,6 +11,7 @@ from psychopy import core, event, visual
 import psychopy.visual
 import random
 import pandas as pd
+import matplotlib.pyplot as plt
 import numpy as np
 
 ###Variables
