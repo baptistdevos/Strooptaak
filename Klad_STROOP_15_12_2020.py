@@ -73,7 +73,6 @@ event.waitKeys()
 Ex1_Screen2 =  visual.ImageStim(win, image = path + "\Ex1_Screen2.png")
 Ex1_Screen2.draw()
 win.flip()
-event.waitKeys()
 
 input_practise = event.waitKeys(keyList=('g','h')) #Possible keys : 'g' and 'h'
 input_practise
@@ -106,7 +105,7 @@ event.waitKeys()
 Ex2_Screen2 =  visual.ImageStim(win, image = path + "\Ex2_Screen2.png")
 Ex2_Screen2.draw()
 win.flip()
-event.waitKeys()
+
 
 input_practise = event.waitKeys(keyList=('g','h')) #2 only two possible keys to type
 input_practise
